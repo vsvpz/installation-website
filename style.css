@@ -1,0 +1,45 @@
+/* adjust typography defaults */
+@font-face {
+  font-family: "Anthony";
+  src: url("./fonts/Anthony.woff2") format("woff2"),
+       url("./fonts/Anthony.woff") format("woff");
+}      
+
+
+
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  background-color: #fd5c14;
+}
+
+.picker{
+  position: fixed;
+  top: 3em;
+  left: 1em;
+  z-index: 90;
+}
+
+img{
+  mix-blend-mode: exclusion;
+  max-width: 40em;
+}
+
+.image{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.text{
+  position: absolute;
+  top: 25em;
+  right: 1em;
+  max-width: 35em;
+}
+
+p{
+  font-family: 'Anthony';
+  font-size: 1.25em;
+  color: white;
+}
