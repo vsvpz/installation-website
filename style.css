@@ -35,11 +35,11 @@ img{
   position: absolute;
   top: 25em;
   right: 1em;
-  max-width: 35em;
+  max-width: 30em;
 }
 
 p{
-  font-family: 'Anthony';
+  font-family: 'Averia Libre', cursive;
   font-size: 1.25em;
   color: white;
 }
